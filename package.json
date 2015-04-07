@@ -1,0 +1,21 @@
+{
+  "name": "pa11y-reporter-ci",
+  "version": "0.0.1",
+  "description": "CI-centric reporter for pa11y",
+  "keywords": [
+    "pa11y",
+    "reporter"
+  ],
+  "author": "Alan deLevie (https://18f.gsa.gov)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/18F/pa11y-reporter-ci.git"
+  },
+  "homepage": "https://github.com/18F/pa11y-reporter-ci",
+  "bugs": "https://github.com/18F/pa11y-reporter-ci/issues",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "colors": "~0.6"
+  },
+  "license": "Public Domain. CC0 where applicable."
+}
