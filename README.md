@@ -9,7 +9,7 @@ This library returns exit code 1 (tests fail) when there are more than zero erro
 Requires [pa11y](https://github.com/nature/pa11y): `[sudo] npm install -g pa11y`.
 
 ```
-[sudo] npm install -g pa11y-ci-reporter
+[sudo] npm install -g pa11y-reporter-ci
 ```
 
 ## Usage
