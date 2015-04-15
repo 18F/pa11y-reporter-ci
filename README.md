@@ -20,6 +20,17 @@ pa11y https://18f.gsa.gov -r ci
 
 See [pa11y's documentation](https://github.com/nature/pa11y#custom-reporters) for more information.
 
+## Travis-CI Integration
+
+```yaml
+before_script:
+  - npm i -g http-server pa11y pa11y-reporter-ci
+
+script: 
+  - nohup http-server -p 8080 >/dev/null 2>&1 &
+  - pa11y localhost:8080/index.html -r ci -s WCAG2AAA
+```
+
 # Public domain
 
 This project is in the public domain within the United States, and
